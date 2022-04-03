@@ -1,0 +1,28 @@
+a {
+    text-decoration: none !important;
+    margin-right: 5px;
+    font-size: large;
+    font-weight:lighter;
+    color: rgb(228, 224, 224) !important;
+    padding: 10px;
+}
+
+a:hover{
+    color: white;
+    background-color: rgba(110, 107, 107, 0.5) ;
+    /* box-shadow:0px 2px white ; */
+}
+
+h2{
+    color: rgb(112, 9, 9);
+    font-weight: bold;
+    font-size:35px;
+    padding-left: 20px;
+}
+.header-container{
+    height: 80px;
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    align-items: center;
+    justify-content: space-between;
+}
