@@ -7,7 +7,7 @@ const useReview = () =>{
 
         fetch("review.json")
         .then(res => res.json())
-        .then(data=> setReview(data))
+        .then(data=> setReview(data));
     },[]);
 
     return [review, setReview];
