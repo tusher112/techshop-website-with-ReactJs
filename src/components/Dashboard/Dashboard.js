@@ -58,7 +58,7 @@ const Dashboard = () => {
 
             <div className='col'>
 
-                <LineChart width={400} height={500} data={data}>
+                <LineChart width={400} height={400} data={data}>
 
                     <Line dataKey={"investment"}></Line>
                     <Line dataKey={"sell"}></Line>
@@ -71,7 +71,7 @@ const Dashboard = () => {
 
 
             <div className="col">
-                <BarChart width={400} height={500} data={data}>
+                <BarChart width={400} height={400} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
                     <YAxis />
@@ -84,14 +84,14 @@ const Dashboard = () => {
 
 
             <div className="col-12 col-md-6 col-lg-6">
-                <ComposedChart width={630} height={350} data={data}>
+                <ComposedChart width={400} height={350} data={data}>
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
                     <Legend />
                     <CartesianGrid stroke="#f5f5f5" />
-                    <Area type="monotone" dataKey="investment" fill="#8884d8" stroke="#8884d8" />
-                    <Bar dataKey="sell" barSize={20} fill="#413ea0" />
+                    <Area type="monotone" dataKey="sell" fill="#8884d8" stroke="#8884d8" />
+                    <Bar dataKey="investment" barSize={20} fill="#413ea0" />
                     <Line type="monotone" dataKey="revenue" stroke="#ff7300" />
                 </ComposedChart>
 
