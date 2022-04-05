@@ -16,7 +16,7 @@ const Home = () => {
                     <h1>Make your Computer 100X Faster!</h1>
                     <p className='para-heading'> The GeForce RTX 3060 is a performance-segment graphics card by NVIDIA, launched on January 12th, 2021. Built on the 8 nm process, and based on the GA106 graphics processor, in its GA106-300-A1 variant, the card supports DirectX 12 Ultimate. This ensures that all modern games will run on GeForce RTX 3060.
                     </p>
-                    <Button variant='primary disabled'>Live Demo</Button>
+                    <Button variant='success disabled'>Live Demo</Button>
 
                 </div>
 
